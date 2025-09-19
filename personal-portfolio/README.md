@@ -1,7 +1,7 @@
-# Basic HTML Website
+# Personal Portfolio
 
-Simple HTML only website with multiple pages showing my experience in the area.<br>
-Project idea url: 
+Convert the previous simple HTML website into a personal portfolio.<br>
+Project idea url: https://roadmap.sh/projects/portfolio-website
 
 ## How to run the project
 ```
