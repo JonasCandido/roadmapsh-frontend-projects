@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+h1 {
+    text-align: center;
+    margin: 60px 0 60px 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+h2 {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+}
+
+a:visited {
+    color: blue;
+}
+
+#home-section-container {
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+    justify-items: center;
+    border: 2px solid black;
+}
+
+#projects {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#projects > a {
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+}
+
+#opinions {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+#opinions > p {
+    border: 2px solid black;
+    padding: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        margin: 30px 0 30px 0;
+    }
+
+    #home-section-container{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+    }
+
+    #opinions {
+        flex-direction: column;
+    }
+
+    #opinions > p {
+        border: 1px solid black;
+        padding: 30px;
+    }
+
+    #review-title {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1699px){
+    #home-section-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+    }
+
+    #review-title {
+        text-align: center;
+    }
+}

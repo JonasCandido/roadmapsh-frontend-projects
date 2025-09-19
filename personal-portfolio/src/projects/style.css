@@ -1,0 +1,9 @@
+#projects-section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#projects-section-container > a {
+    text-decoration: none;
+}
